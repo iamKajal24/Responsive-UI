@@ -1,0 +1,25 @@
+p{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid red;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+   /* height: 100px;
+    width: 50px;*/
+    max-height: 80px;
+    min-height: 50px;
+
+    max-width: 200px;
+    min-width: 500px;
+    
+}
+h1{
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+}

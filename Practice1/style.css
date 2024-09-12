@@ -1,0 +1,34 @@
+
+/*h1{
+    background-color: blueviolet;
+    color: rgb(10, 10, 10);
+    padding: 5px ;
+    border: 1px solid;
+    text-align: center;  
+}
+body{
+    background-color: lightgrey;
+    padding: 10px; 
+    border: 10px;
+}
+img{
+    background-color: brown;
+    padding: 10px; ;
+}*/
+
+
+/*background colour*/
+
+h1{
+    background-color: yellow;
+}
+body{
+    background-color: lightgray;
+}
+img{
+    background-color: coral;
+    padding: 10px;
+}
+p{
+    background-color: lightblue;
+}

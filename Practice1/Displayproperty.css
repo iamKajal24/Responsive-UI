@@ -1,0 +1,31 @@
+h1{
+    background-color: yellow;
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    opacity: 0.2; /*blur img*/
+
+}
+p{
+    background-color: cyan;
+    /* display: inline; */
+}
+em{
+    background-color: greenyellow;
+    display: block; /*block level hamesa new line se start hota hai*/ 
+}
+li{
+   display: inline;
+   /* display: none; */
+   /* visibility: hidden; */
+  
+}
+img{
+    width: 180px;
+    height: 180px;
+    opacity: 0;
+    transition: 0.6s;
+}
+img:hover{
+   opacity: 1;
+}

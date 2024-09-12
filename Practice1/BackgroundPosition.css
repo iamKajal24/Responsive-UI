@@ -1,0 +1,32 @@
+section{
+    height: 700px;
+    background-color: lightskyblue;
+    background-image: url(https://t4.ftcdn.net/jpg/05/94/56/97/360_F_594569733_f9Io31TdGs53PRNBOZnMTMiXZI6jP4GX.jpg);
+    background-repeat: no-repeat;
+
+   /* background-position: bottom right;
+    background-position: bottom left;
+    background-position: top right;
+    background-position: top left;
+    background-position: top center;
+    background-position: bottom center;
+    background-position: center center;
+    background-position:left center;
+    background-position:right center;*/
+
+   /* background-position: 50% 50%;*/
+      /*background-position: 10cm;
+      */
+
+      /*keyword Image size*/
+     /* background-size: contain;
+      background-size: cover*/
+
+      /*background-size: 1600px 700px;*/
+
+      background-size: 100% 100% ;
+
+
+
+
+}

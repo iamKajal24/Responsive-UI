@@ -1,0 +1,45 @@
+h1{
+    background-color: royalblue;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+p{
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+    border: 1px solid black;
+    text-align: justify;
+    text-transform: capitalize;
+   
+    /* text-indent: 30px; */
+    /* text-indent: -30px;
+   
+    padding: 30px; */
+    /* line-height: 150%; */
+   
+    font-weight: 700;
+   
+    /* word-spacing: -15px;
+    letter-spacing: 5px; */
+
+  /* text-decoration: dotted; */
+
+  /* text-decoration-line: overline;
+  text-decoration-color: blue;
+  text-decoration-style: dotted; */
+
+  /* text-decoration: overline blue dotted 2px; */
+
+  text-shadow: 0px 5px 2px fuchsia;
+}
+
+article{
+    padding: 10px;
+    border: 2px solid black;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 700;
+     /* white-space: pre-line; */
+     /* direction: ltr; */
+}

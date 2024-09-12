@@ -1,0 +1,44 @@
+h1{
+    background-color: blueviolet;
+    padding: 10px;
+    border: 2px solid black;
+    /* color: fuchsia; */
+    /* border-radius: 50%; */
+}
+/* h2{
+color: fuchsia;
+}
+h3{
+    color: fuchsia;
+} */
+
+/* Grouping selector */
+/* h1,h2,h3{
+    color: fuchsia;
+} */
+
+/* Universal selector */
+/* p{
+    color: rgb(11, 96, 130);
+}
+*{
+    font-size: 23px;
+} */
+
+
+/* class selector */
+.heading{
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid black;
+}
+.book{
+    background-color: aqua;
+}
+.Writer{
+    background-color: fuchsia;
+}
+.Writer.fav{
+    background-color: forestgreen;
+}

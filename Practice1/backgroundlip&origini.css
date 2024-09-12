@@ -1,0 +1,21 @@
+section{
+     padding: 20px;
+     border: 5px dotted black ;
+    background-color: yellow;
+
+    background-clip: border-box;
+    background-clip: padding-box;
+    background-clip: content-box;
+}
+
+div{
+    padding: 25px;
+    border: 5px dotted black;
+    background-size: left bottom;
+    background-image: url(https://t3.ftcdn.net/jpg/07/50/03/14/360_F_750031411_qRjr6a7gtGcuqcWV4zInATqOCnTPS4S8.jpg);
+    background-repeat: no-repeat;
+
+    background-origin: padding-box;
+    background-origin: content-box;
+    background-origin: border-box;
+}

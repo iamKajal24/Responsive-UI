@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is html form tutorial </h2>
+    <form action="backend.php">
+        NAME:<input type="text">
+        ROLE:<input type="text">
+    </form>
+    <hr>
+
+    <form action="backend.php1">
+        <div>
+            Name:<input type="text" name="Myname">
+        </div>
+        <br>
+        <div>
+            Role:<input type="text" name="MyRole">
+        </div>
+        <br>
+        <div>
+            Email:<input type="email" name="myemail">
+        </div>
+        <br>
+        <div>
+            Date:<input type="date" name="Date">
+        </div>
+        <br>
+        <div>
+            Are you eligible:<input type="checkbox" name="MyCheckbox">
+        </div>
+        <br>
+        <div>
+            Gender:Male<input type="radio" name="MyGender"> Female<input type="radio" name="MyGender">
+            other<input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write About your self:
+            <br><textarea name="myText" cols='30' rows='10'></textarea>
+        </div>
+        <br>
+        <div><label for="car">car</label>
+            <select name="mycar" id="car">
+                <option value="ind">indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Submit:<input type="submit" name="submit">
+            Reset:<input type="reset" name="Reset Now">
+        </div>
+    </form>
+    <br>
+    <hr>
+
+    <form> 
+            <fieldset>
+                <legend>Little Login Page</legend>
+                firstname:<input type="firstname" placeholder="Type your first name"><br>
+                LastName:<input type="lastname" placeholder="Type your Last name" value="LastName" readonly><br>
+                password:<input type="password" maxlength="10" required><br>
+            </fieldset>
+
+            <!--textarea-->
+             <fieldset>
+                <legend>Example of TextArea</legend>
+                <textarea name="Feedback" rows="10" cols="40">Give your feedback</textarea>
+             </fieldset>
+
+             <br>
+             <hr>
+             <fieldset>
+                <legend>Example of Dropdown option</legend>
+                <select >
+                    <option value="JAVA">JAVA</option>
+                    <option value="C++">C++</option>
+                    <option value="C">C</option>
+                    <option value="DSA">DSA</option>
+                </select>
+             </fieldset>
+             <br>
+             <hr>
+              
+             <fieldset>
+                <legend>Example of DataList</legend>
+                <input list="course">
+            <datalist id="course">
+                <option value="JAVA">JAVA</option>
+                    <option value="C++">C++</option>
+                    <option value="C">C</option>
+                    <option value="DSA">DSA</option>
+            </datalist>
+             </fieldset>
+
+            <fieldset>
+                <legend>Example of all input type</legend>
+                <input type="button" value="click me to submit" name="butt"><label for="butt">NormalButton</label><br>
+                <input type="submit"><br>
+                <input type="color" ><br>
+                <input type="date"><br>
+                <input type="datetime"><br>
+                <input type="year"><br>
+                <input type="file"><br>
+                <input type="month"><br>
+                <input type="number"><br>
+                <input type="range"><br>
+                <input type="search"><br>
+                <input type="url">URL
+                
+            </fieldset>
+
+             
+            
+      
+        
+
+
+    </form>
+
+</body>
+
+</html>

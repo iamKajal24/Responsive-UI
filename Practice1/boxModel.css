@@ -1,0 +1,88 @@
+/*img{
+    max-width: 250px;
+    max-height: 150px;
+    padding: 10px;
+    background-color: rgb(191, 232, 232);
+}
+h1{
+    background-color: rgb(163, 220, 220);
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+    background-color: rgb(129, 116, 142);
+}
+em{
+    padding: 0px 5px;
+    background-color: blueviolet;
+}
+strong{
+    padding: 0px 5px;
+    background-color: yellow;
+}*/
+
+h3{
+    /* margin: 15px auto;
+    width: 70%;
+    text-align: center; */
+
+    /*border-top-style: dotted;
+    border-bottom-style: dashed;
+    border-right-style: groove;
+    border-left-style: solid;*/
+
+    /*border-style: dotted dashed groove solid;*/
+  
+    /* 3 jgh per apply karna hai border*/
+    /* border-style: dashed;
+    border-left-style: solid; */
+
+        /* border-style: solid;
+        border-width: 1px 2px 3px 4px;
+        border-color: blue black rebeccapurple purple; */
+
+        /* border: solid 5px royalblue; 
+        border-radius: 15px; */
+        /* border-top: 3px dashed purple; */
+}
+
+/*learning border-style*/
+/* p{
+    padding: 2px;
+    text-align: center;
+    border-width: 10px;
+    margin-bottom: 30px;
+}
+p.dotted{border-style: dotted;}
+p.double{border-style: double;}
+p.solid{border-style: solid;}
+p.groove{border-style: groove;}
+p.ridge{border-style: ridge;}
+p.inset{border-style: inset;}
+p.outset{border-style: outset;}
+p.none{border-style: none;}
+p.hidden{border-style: hidden;}
+p.dashed{border-style: dashed;} */
+
+ /* div{
+    width: 400px;
+    height: 400px;
+   text-align: center;
+    background-color: royalblue;
+    /* border-radius: 75%; 8/
+}  */
+
+div {
+    margin: 0 auto;
+    padding: 10px;
+    width: 400px;
+    height: 400px;
+    border: 2px solid #f71414;
+    border-radius: 20%;
+    box-sizing: border-box;
+    /* box-shadow: #d0b8b8; */
+    /* border-spacing: 10px; */
+    background-color: royalblue;
+  }
+
