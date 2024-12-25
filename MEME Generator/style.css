@@ -1,0 +1,67 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set background color and center the content */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for meme generator */
+.meme-generator {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Button styling */
+.generator-meme-btn {
+    background-color: #3498db;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.generator-meme-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Title styling */
+.meme-title {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Image styling */
+.meme-img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Author text styling */
+.meme-author {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+}
