@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Code</title>
+  </head>
+  <body>
+    <!--tables-->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>Class</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>101</td>
+          <td>Kajal</td>
+          <td>10th</td>
+        </tr>
+      </tbody>
+
+      table tag : for starting table ,tr: each table row starting, th:for table
+      heading ,td:table defined by td
+    </table>
+
+    <br />
+
+    <!--vertical tag-->
+    <table>
+      <tr>
+        <th>First name</th>
+        <td>kajal</td>
+        <td>Riya</td>
+      </tr>
+      <tr>
+        <th>Second Name</th>
+        <td>pandit</td>
+        <td>kumari</td>
+      </tr>
+    </table>
+
+    <!--colspan-->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Math</th>
+        <th>Science</th>
+      </tr>
+      <tr>
+        <td>Aman</td>
+        <td>85</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td>Priya</td>
+        <td>88</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center">
+          Result Declared on 10th July
+        </td>
+      </tr>
+    </table>
+
+    <!--rowspan-->
+    <table border="1">
+      <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Marks</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Aman</td>
+        <td>Math</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>90</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Priya</td>
+        <td>Math</td>
+        <td>88</td>
+      </tr>
+      <tr>
+        <td>Science</td>
+        <td>92</td>
+      </tr>
+    </table>
+
+    <!--ol or ul-->
+
+    <!--Unordered List (<ul>):-->
+    <h3>Groceries</h3>
+    <ul>
+      <li>Milk</li>
+      <li>Bread</li>
+      <li>Eggs</li>
+      <li>Fruits</li>
+    </ul>
+
+    <!--ordered List (<ol>):-->
+    <h3>Steps to Make Tea</h3>
+    <ol>
+      <li>Boil water</li>
+      <li>Add tea leaves</li>
+      <li>Add milk and sugar</li>
+      <li>Strain and serve</li>
+    </ol>
+
+    <!--description list-->
+    <h3>Web Development Glossary</h3>
+
+    <dl>
+      <dt>HTML</dt>
+      <dd>
+        HyperText Markup Language - the standard language for creating web
+        pages.
+      </dd>
+
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets - used to style and layout web pages.</dd>
+
+      <dt>JavaScript</dt>
+      <dd>A programming language that makes web pages interactive.</dd>
+    </dl>
+
+    <!--ordered type-->
+
+    <h3>Example: Ordered List with Different Types</h3>
+
+    <ol type="1">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ol>
+
+    <ol type="A">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Cherry</li>
+    </ol>
+
+    <ol type="a">
+      <li>Alpha</li>
+      <li>Beta</li>
+      <li>Gamma</li>
+    </ol>
+
+    <ol type="I">
+      <li>Introduction</li>
+      <li>Body</li>
+      <li>Conclusion</li>
+    </ol>
+
+    <ol type="i">
+      <li>Point One</li>
+      <li>Point Two</li>
+      <li>Point Three</li>
+    </ol>
+
+    <!--block-->
+    <div class="block">
+      This is a block-level element (div). It takes the full width.
+    </div>
+
+    <p class="block">
+      This is another block-level element (p). It also starts on a new line and
+      takes full width.
+    </p>
+
+    <!--inline-->
+    <p>
+      This is a <span class="highlight">highlighted word</span> inside a
+      paragraph.
+    </p>
+
+    <p>
+      Visit <a href="https://www.google.com">Google</a> for more information.
+    </p>
+
+    <p>This text has a <strong>strong</strong> (bold) word in it.</p>
+
+    <!--div -->
+    <div class="box">
+      <h2>This is a div container</h2>
+      <p>It can hold text, images, buttons, or even other divs.</p>
+    </div>
+
+    <!--span-->
+    <p>
+      This is a normal sentence with a
+      <span class="highlight">highlighted word</span> using a span tag.
+    </p>
+
+    <!--iframe-->
+    <h2>Embedded Google Website using &lt;iframe&gt;</h2>
+
+    <iframe
+      src="https://www.google.com"
+      width="300"
+      height="200"
+      title="Google Search"
+    ></iframe>
+
+    <!--file path-->
+    <img
+      src="https://www.example.com/images/logo.png"
+      alt="Logo from website"
+    />
+
+    <!--code-->
+    <code>x=4; y=6;</code>
+
+    <!--keyboard-->
+    <kbd>Ctrl+s</kbd>
+
+    <!--sample-->
+    <samp>file not found</samp>
+
+    <!--pre-->
+    <h2>Using the &lt;pre&gt; tag</h2>
+
+    <pre>
+This is preformatted text.
+    It keeps spaces, tabs, and
+line breaks exactly as written.
+</pre
+    >
+
+    <!--var-->
+    <p>
+      The formula for the area of a circle is: <var>A</var> = π × <var>r</var
+      ><sup>2</sup>
+    </p>
+
+    <!--section-->
+    <section>
+      <h2>About Us</h2>
+      <p>
+        We are a tech company focused on building web applications that make
+        life easier.
+      </p>
+    </section>
+
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>Mobile App Development</li>
+        <li>UI/UX Design</li>
+      </ul>
+    </section>
+
+    <!--artical-->
+    <article>
+      <h2>How to Stay Focused While Studying</h2>
+      <p><strong>Published on:</strong> July 13, 2025</p>
+      <p>
+        Staying focused while studying can be tough, especially with so many
+        distractions around. Here are 5 proven tips to help you concentrate
+        better...
+      </p>
+    </article>
+
+    <!--header-->
+    <header>
+      <h1>My Website</h1>
+      <p>Welcome to my world of coding!</p>
+    </header>
+
+    <!--footer-->
+    <footer>
+      <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+      <p>
+        <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> |
+        <a href="#">Contact Us</a>
+      </p>
+    </footer>
+
+    <!--nav-->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!--aside-->
+    <aside>
+      <h3>Related Links</h3>
+      <ul>
+        <li><a href="#">Author Bio</a></li>
+        <li><a href="#">Latest Posts</a></li>
+        <li><a href="#">Newsletter Signup</a></li>
+      </ul>
+    </aside>
+
+    <!--symbol-->
+    <h2>Common Symbols</h2>
+
+    <p>Copyright: &copy;</p>
+    <p>Trademark: &trade;</p>
+    <p>Registered: &reg;</p>
+    <p>Greater than: &gt;</p>
+    <p>Less than: &lt;</p>
+    <p>Ampersand: &amp;</p>
+    <p>Euro: &euro;</p>
+    <p>Rupee (₹): &#8377;</p>
+    <p>Heart: &hearts;</p>
+
+    <!--video-->
+    <h2>Sample Video</h2>
+
+    <video width="640" height="360" controls>
+      <source src="sample-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!--video attribute-->
+
+    <h2>HTML Video Tag with Attributes</h2>
+
+    <video
+      width="640"
+      height="360"
+      controls
+      autoplay
+      loop
+      muted
+      poster="thumbnail.jpg"
+    >
+      <source src="sample-video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <!--audio-->
+    <h2>Play Sample Audio</h2>
+
+    <audio controls>
+      <source src="sample-audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!--youtube-->
+    <h2>Embedded YouTube Video</h2>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+
+    <!--forms-->
+    <form action="/submit" method="post">
+      <!-- Text Input -->
+      <label for="name">Full Name:</label><br />
+      <input type="text" id="name" name="name" required /><br /><br />
+
+      <!-- Email -->
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <!-- Radio Buttons -->
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label><br />
+
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label><br /><br />
+
+      <!-- Dropdown -->
+      <label for="country">Country:</label><br />
+      <select id="country" name="country">
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option></select
+      ><br /><br />
+
+      <!-- Textarea -->
+      <label for="message">Message:</label><br />
+      <textarea id="message" name="message" rows="4" cols="30"></textarea
+      ><br /><br />
+
+      <!-- Submit and Reset Buttons -->
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <!--select-->
+    <h2>Choose Your Country</h2>
+
+    <form>
+      <label for="country">Country:</label><br />
+      <select id="country" name="country">
+        <option value="">-- Select --</option>
+        <option value="india">India</option>
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="canada">Canada</option>
+      </select>
+    </form>
+
+    <!--select size-->
+    <h2>Select Your Favorite Programming Language</h2>
+
+    <form>
+      <label for="language">Languages:</label><br />
+      <select id="language" name="language" size="4">
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+        <option value="csharp">C#</option>
+        <option value="php">PHP</option>
+      </select>
+    </form>
+
+    <!--textarea-->
+    <h2>Feedback Form</h2>
+
+    <form>
+      <label for="message">Your Feedback:</label><br />
+      <textarea
+        id="message"
+        name="message"
+        rows="5"
+        cols="40"
+        placeholder="Write your feedback here..."
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!--button-->
+    <h2>Button Example</h2>
+
+    <!-- Submit Button inside a form -->
+    <form action="/submit" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Button with JavaScript -->
+    <button onclick="alert('Hello, Kajal!')">Click Me</button>
+
+    <!--fieldset-->
+    <h2>Registration Form</h2>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" /><br /><br />
+      </fieldset>
+
+      <br />
+
+      <fieldset>
+        <legend>Account Details</legend>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" /><br /><br />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" /><br /><br />
+      </fieldset>
+
+      <br />
+
+      <input type="submit" value="Register" />
+    </form>
+
+    <!--time and calender-->
+    <h2>Appointment Booking Form</h2>
+
+    <form>
+      <!-- Calendar Date Picker -->
+      <label for="appointment-date">Choose a Date:</label><br />
+      <input
+        type="date"
+        id="appointment-date"
+        name="appointment-date"
+      /><br /><br />
+
+      <!-- Time Picker -->
+      <label for="appointment-time">Choose a Time:</label><br />
+      <input
+        type="time"
+        id="appointment-time"
+        name="appointment-time"
+      /><br /><br />
+
+      <input type="submit" value="Book Appointment" />
+    </form>
+
+    <h2>Subscribe to Our Newsletter</h2>
+
+    <form action="/subscribe" method="post">
+      <label for="email">Enter your email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="someone@example.com"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Subscribe" />
+    </form>
+  </body>
+</html>
